@@ -1,4 +1,4 @@
-Copyright (c) 2014, Steven Smith
+Copyright (c) 2014, Steven L Smith
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -22,3 +22,23 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+
+CSSbis Includes icons from the following icon libraries:
+
+Fugue Icons (version 3.5.6)
+http://p.yusukekamiyamane.com/
+Creative Commons Attribution 3.0 License
+
+FAMFAMFAM Flag Icons
+http://www.famfamfam.com/lab/icons/flags/
+Public Domain
+
+FAMFAMFAM Silk Icons
+http://www.famfamfam.com/lab/icons/silk/ 
+Creative Commons Attribution 3.0 License
+
+Fatcow "Farm-Fresh Web Icons"
+http://www.fatcow.com/free-icons
+Creative Commons Attribution 3.0 License
+
+When using CSSbis you must also include attributions for the icons that you use, to comply with their licenses.
