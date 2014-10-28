@@ -132,7 +132,7 @@ print """
 
 		<h2>Icon Classes</h2>
 		<p>Each of the items in this section can be used separately, in which case you'll only get the icon itself, or with the "withtext" or "button" modifiers. Examples of each will follow. You can apply these classes to anchor tags, span tags, input tags (like submit buttons), and button tags, and the examples will be in that order.</p>
-		<p>Also, the table the icons are in can be used if you give your table a class of <p>.cssbis</code></p>
+		<p>Also, the table the icons are in can be used if you give your table a class of <code>.cssbis</code></p>
 		<ul>
 """
 for icon_class in ICON_CLASSES:
