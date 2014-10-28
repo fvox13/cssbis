@@ -1,0 +1,36 @@
+.programming_language.c{
+	background-image: url(programming_languages/c.png);
+}
+.programming_language.clojure{
+	background-image: url(programming_languages/clojure.png);
+}
+.programming_language.coldfusion{
+	background-image: url(programming_languages/coldfusion.png);
+}
+.programming_language.csharp{
+	background-image: url(programming_languages/csharp.png);
+}
+.programming_language.java{
+	background-image: url(programming_languages/java.png);
+}
+.programming_language.javascript{
+	background-image: url(programming_languages/javascript.png);
+}
+.programming_language.lua{
+	background-image: url(programming_languages/lua.png);
+}
+.programming_language.perl{
+	background-image: url(programming_languages/perl.png);
+}
+.programming_language.php{
+	background-image: url(programming_languages/php.png);
+}
+.programming_language.python{
+	background-image: url(programming_languages/python.png);
+}
+.programming_language.ruby{
+	background-image: url(programming_languages/ruby.png);
+}
+.programming_language.vb{
+	background-image: url(programming_languages/vb.png);
+}

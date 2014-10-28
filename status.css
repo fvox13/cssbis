@@ -1,0 +1,24 @@
+.status.disabled{
+	background-image: url(status/disabled.png);
+}
+.status.enabled{
+	background-image: url(status/enabled.png);
+}
+.status.error{
+    background-image: url(status/error.png);
+}
+.status.info{
+    background-image: url(status/info.png);
+}
+.status.locked{
+	background-image: url(status/locked.png);
+}
+.status.safe{
+	background-image: url(status/safe.png);
+}
+.status.success{
+    background-image: url(status/success.png);
+}
+.status.unlocked{
+    background-image: url(status/unlocked.png);
+}

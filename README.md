@@ -3,7 +3,6 @@ CSSbis
 
 CSSbis Useful CSS Mini-Framework
 by Steven L Smith
-http://www.stevenlsmith.com/cssbis/
 
 You know how it is.  You make websites.  You make web applications.  There's a lot of repeated code amongst these, especially CSS, because you have a style, you know what you like, and there's some stuff that a lot of websites have in common.  What's more, when you change jobs, you have to reinvent a lot of boilerplate, unnecessarily.
 

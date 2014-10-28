@@ -1,0 +1,305 @@
+.filetype{
+	background-image: url(filetypes/_file.png)
+}
+.filetype.ace{
+	background-image: url(filetypes/ace.png)
+}
+.filetype.ai{
+	background-image: url(filetypes/ai.png)
+}
+.filetype.aif{
+	background-image: url(filetypes/aif.png)
+}
+.filetype.aiff{
+	background-image: url(filetypes/aiff.png)
+}
+.filetype.amr{
+	background-image: url(filetypes/amr.png)
+}
+.filetype.asf{
+	background-image: url(filetypes/asf.png)
+}
+.filetype.asx{
+	background-image: url(filetypes/asx.png)
+}
+.filetype.bat{
+	background-image: url(filetypes/bat.png)
+}
+.filetype.bin{
+	background-image: url(filetypes/bin.png)
+}
+.filetype.bmp{
+	background-image: url(filetypes/bmp.png)
+}
+.filetype.bup{
+	background-image: url(filetypes/bup.png)
+}
+.filetype.cab{
+	background-image: url(filetypes/cab.png)
+}
+.filetype.cbr{
+	background-image: url(filetypes/cbr.png)
+}
+.filetype.cda{
+	background-image: url(filetypes/cda.png)
+}
+.filetype.cdl{
+	background-image: url(filetypes/cdl.png)
+}
+.filetype.cdr{
+	background-image: url(filetypes/cdr.png)
+}
+.filetype.chm{
+	background-image: url(filetypes/chm.png)
+}
+.filetype.csv{
+	background-image: url(filetypes/csv.png)
+}
+.filetype.dat{
+	background-image: url(filetypes/dat.png)
+}
+.filetype.divx{
+	background-image: url(filetypes/divx.png)
+}
+.filetype.dll{
+	background-image: url(filetypes/dll.png)
+}
+.filetype.dmg{
+	background-image: url(filetypes/dmg.png)
+}
+.filetype.docx,
+.filetype.doc{
+	background-image: url(filetypes/doc.png)
+}
+.filetype.dss{
+	background-image: url(filetypes/dss.png)
+}
+.filetype.dvf{
+	background-image: url(filetypes/dvf.png)
+}
+.filetype.dwg{
+	background-image: url(filetypes/dwg.png)
+}
+.filetype.eml{
+	background-image: url(filetypes/eml.png)
+}
+.filetype.eps{
+	background-image: url(filetypes/eps.png)
+}
+.filetype.epub{
+	background-image: url(filetypes/epub.png)
+}
+.filetype.exe{
+	background-image: url(filetypes/exe.png)
+}
+.filetype.fla{
+	background-image: url(filetypes/fla.png)
+}
+.filetype.flv{
+	background-image: url(filetypes/flv.png)
+}
+.filetype.gif{
+	background-image: url(filetypes/gif.png)
+}
+.filetype.gz{
+	background-image: url(filetypes/gz.png)
+}
+.filetype.hqx{
+	background-image: url(filetypes/hqx.png)
+}
+.filetype.htm,
+.filetype.html{
+	background-image: url(filetypes/html.png)
+}
+.filetype.ifo{
+	background-image: url(filetypes/ifo.png)
+}
+.filetype.indd{
+	background-image: url(filetypes/indd.png)
+}
+.filetype.iso{
+	background-image: url(filetypes/iso.png)
+}
+.filetype.jar{
+	background-image: url(filetypes/jar.png)
+}
+.filetype.jpeg{
+	background-image: url(filetypes/jpeg.png)
+}
+.filetype.jpg{
+	background-image: url(filetypes/jpg.png)
+}
+.filetype.lnk{
+	background-image: url(filetypes/lnk.png)
+}
+.filetype.log{
+	background-image: url(filetypes/log.png)
+}
+.filetype.m4a{
+	background-image: url(filetypes/m4a.png)
+}
+.filetype.m4b{
+	background-image: url(filetypes/m4b.png)
+}
+.filetype.m4p{
+	background-image: url(filetypes/m4p.png)
+}
+.filetype.m4v{
+	background-image: url(filetypes/m4v.png)
+}
+.filetype.mcd{
+	background-image: url(filetypes/mcd.png)
+}
+.filetype.mdb{
+	background-image: url(filetypes/mdb.png)
+}
+.filetype.mid{
+	background-image: url(filetypes/mid.png)
+}
+.filetype.mov{
+	background-image: url(filetypes/mov.png)
+}
+.filetype.mp3,
+.filetype.mp2{
+	background-image: url(filetypes/mp2.png)
+}
+.filetype.mp4{
+	background-image: url(filetypes/mp4.png)
+}
+.filetype.mpeg{
+	background-image: url(filetypes/mpeg.png)
+}
+.filetype.mpg{
+	background-image: url(filetypes/mpg.png)
+}
+.filetype.msi{
+	background-image: url(filetypes/msi.png)
+}
+.filetype.mswmm{
+	background-image: url(filetypes/mswmm.png)
+}
+.filetype.ogg{
+	background-image: url(filetypes/ogg.png)
+}
+.filetype.pdf{
+	background-image: url(filetypes/pdf.png)
+}
+.filetype.png{
+	background-image: url(filetypes/png.png)
+}
+.filetype.pps{
+	background-image: url(filetypes/pps.png)
+}
+.filetype.pptx,
+.filetype.ppt{
+	background-image: url(filetypes/ppt.png)
+}
+.filetype.ps{
+	background-image: url(filetypes/ps.png)
+}
+.filetype.psd{
+	background-image: url(filetypes/psd.png)
+}
+.filetype.pst{
+	background-image: url(filetypes/pst.png)
+}
+.filetype.ptb{
+	background-image: url(filetypes/ptb.png)
+}
+.filetype.pub{
+	background-image: url(filetypes/pub.png)
+}
+.filetype.qbb{
+	background-image: url(filetypes/qbb.png)
+}
+.filetype.qbw{
+	background-image: url(filetypes/qbw.png)
+}
+.filetype.qxd{
+	background-image: url(filetypes/qxd.png)
+}
+.filetype.ram{
+	background-image: url(filetypes/ram.png)
+}
+.filetype.rar{
+	background-image: url(filetypes/rar.png)
+}
+.filetype.rm{
+	background-image: url(filetypes/rm.png)
+}
+.filetype.rmvb{
+	background-image: url(filetypes/rmvb.png)
+}
+.filetype.rss{
+	background-image: url(filetypes/rss.png)
+}
+.filetype.rtf{
+	background-image: url(filetypes/rtf.png)
+}
+.filetype.sea{
+	background-image: url(filetypes/sea.png)
+}
+.filetype.ses{
+	background-image: url(filetypes/ses.png)
+}
+.filetype.sit{
+	background-image: url(filetypes/sit.png)
+}
+.filetype.sitx{
+	background-image: url(filetypes/sitx.png)
+}
+.filetype.ss{
+	background-image: url(filetypes/ss.png)
+}
+.filetype.swf{
+	background-image: url(filetypes/swf.png)
+}
+.filetype.tgz{
+	background-image: url(filetypes/tgz.png)
+}
+.filetype.thm{
+	background-image: url(filetypes/thm.png)
+}
+.filetype.tif{
+	background-image: url(filetypes/tif.png)
+}
+.filetype.tmp{
+	background-image: url(filetypes/tmp.png)
+}
+.filetype.torrent{
+	background-image: url(filetypes/torrent.png)
+}
+.filetype.ttf{
+	background-image: url(filetypes/ttf.png)
+}
+.filetype.txt{
+	background-image: url(filetypes/txt.png)
+}
+.filetype.vcd{
+	background-image: url(filetypes/vcd.png)
+}
+.filetype.vob{
+	background-image: url(filetypes/vob.png)
+}
+.filetype.wav{
+	background-image: url(filetypes/wav.png)
+}
+.filetype.wma{
+	background-image: url(filetypes/wma.png)
+}
+.filetype.wmv{
+	background-image: url(filetypes/wmv.png)
+}
+.filetype.wps{
+	background-image: url(filetypes/wps.png)
+}
+.filetype.xlsx,
+.filetype.xls{
+	background-image: url(filetypes/xls.png)
+}
+.filetype.xpi{
+	background-image: url(filetypes/xpi.png)
+}
+.filetype.zip{
+	background-image: url(filetypes/zip.png)
+}

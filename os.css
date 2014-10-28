@@ -1,0 +1,48 @@
+.os.aix{
+	background-image: url(os/aix.png);
+}
+.os.android{
+	background-image: url(os/android.png);
+}
+.os.beos{
+	background-image: url(os/beos.png);
+}
+.os.dos{
+	background-image: url(os/dos.png);
+}
+.os.freebsd{
+	background-image: url(os/freebsd.png);
+}
+.os.hpux{
+	background-image: url(os/hpux.png);
+}
+.os.ios{
+	background-image: url(os/ios.png);
+}
+.os.irix{
+	background-image: url(os/irix.png);
+}
+.os.junos{
+	background-image: url(os/junos.png);
+}
+.os.linux{
+	background-image: url(os/linux.png);
+}
+.os.mac{
+	background-image: url(os/mac.png);
+}
+.os.os2{
+	background-image: url(os/os2.png);
+}
+.os.plan9{
+	background-image: url(os/plan9.png);
+}
+.os.reactos{
+	background-image: url(os/reactos.png);
+}
+.os.sunos{
+	background-image: url(os/sunos.png);
+}
+.os.windows{
+	background-image: url(os/windows.png);
+}
