@@ -8,6 +8,6 @@ You know how it is.  You make websites.  You make web applications.  There's a l
 
 "Bis" is a musical term (did I mention that's what my degree is in?) that means "repeat" or "twice" or "again".  I got tired of repeating myself all the time, so I thought I'd stick some useful CSS styles up on github for myself to use, or for you to use, if you find them useful...
 
-Preview Styles by cloning and running demo.html in the _demo directory, or on htmlpreview.github.io below:
+Preview Styles by cloning this repo, and viewing demo.html in the _demo directory, or on htmlpreview.github.io below:
 
 http://htmlpreview.github.io/?https://github.com/fvox13/cssbis/blob/master/_demo/demo.html
