@@ -424,6 +424,9 @@ button.medium24.button{
 .action.link_financial_instruments{
 	background-image: url(actions/link_financial_instruments.png);
 }
+.action.login{
+	background-image: url(actions/login.png);
+}
 .action.logout{
 	background-image: url(actions/logout.png);
 }
