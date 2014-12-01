@@ -408,6 +408,9 @@ button.medium24.button{
 .action.edit{
 	background-image: url(actions/edit.png);
 }
+.action.email{
+	background-image: url(actions/email.png);
+}
 .action.enable{
 	background-image: url(actions/enable.png);
 }
@@ -442,6 +445,9 @@ button.medium24.button{
 }
 .action.more{
 	background-image: url(actions/more.png);
+}
+.action.phone{
+	background-image: url(actions/phone.png);
 }
 .action.print{
 	background-image: url(actions/print.png);
