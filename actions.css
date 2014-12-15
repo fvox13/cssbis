@@ -5,6 +5,15 @@
 .action.block{
 	background-image: url(actions/block.png);
 }
+.action.camera_add{
+	background-image: url(actions/camera_add.png);
+}
+.action.camera_delete{
+	background-image: url(actions/camera_delete.png);
+}
+.action.camera_edit{
+	background-image: url(actions/camera_edit.png);
+}
 .action.clone{
 	background-image: url(actions/clone.png);
 }
@@ -64,6 +73,15 @@
 .action.previous{
 	background-image: url(actions/arrow_left.png);
 }
+.action.money{
+	background-image: url(actions/money.png);
+}
+.action.money_add{
+	background-image: url(actions/money_add.png);
+}
+.action.money_delete{
+	background-image: url(actions/money_delete.png);
+}
 .action.more{
 	background-image: url(actions/more.png);
 }
@@ -112,6 +130,18 @@
 }
 .action.upload{
 	background-image: url(actions/upload.png);
+}
+.action.user{
+	background-image: url(actions/user.png);
+}
+.action.user_add{
+	background-image: url(actions/user_add.png);
+}
+.action.user_edit{
+	background-image: url(actions/user_edit.png);
+}
+.action.user_suit{
+	background-image: url(actions/user_suit.png);
 }
 .action.view-code{
 	background-image: url(actions/view-code.png);
