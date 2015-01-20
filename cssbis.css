@@ -2037,6 +2037,9 @@ button.medium24.button{
 .socmed.small16.pinterest{
 	background-image: url(socmed/small16/pinterest.png);
 }
+.socmed.small16.skype{
+	background-image: url(socmed/small16/skype.png);
+}
 .socmed.small16.stumbleupon{
 	background-image: url(socmed/small16/stumbleupon.png);
 }
@@ -2112,6 +2115,9 @@ button.medium24.button{
 .socmed.medium24.pinterest{
 	background-image: url(socmed/medium24/pinterest.png);
 }
+.socmed.medium24.skype{
+	background-image: url(socmed/medium24/skype.png);
+}
 .socmed.medium24.stumbleupon{
 	background-image: url(socmed/medium24/stumbleupon.png);
 }
@@ -2129,7 +2135,8 @@ button.medium24.button{
 }
 .socmed.medium24.youtube{
 	background-image: url(socmed/medium24/youtube.png);
-}.status.disabled{
+}
+.status.disabled{
 	background-image: url(status/disabled.png);
 }
 .status.enabled{
