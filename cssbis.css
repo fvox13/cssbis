@@ -279,6 +279,8 @@ div.vcr.light{
 	text-indent: -9999px;
 	position: relative;
 }
+a.action,
+input.action,
 a.withtext,
 input.withtext,
 button.withtext,
