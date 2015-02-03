@@ -1708,6 +1708,9 @@ button.medium24.button{
 .filetype.jpg{
 	background-image: url(filetypes/jpg.png)
 }
+.filetype.json{
+	background-image: url(filetypes/json.png)
+}
 .filetype.lnk{
 	background-image: url(filetypes/lnk.png)
 }
@@ -1876,12 +1879,16 @@ button.medium24.button{
 .filetype.xls{
 	background-image: url(filetypes/xls.png)
 }
+.filetype.xml{
+	background-image: url(filetypes/xml.png)
+}
 .filetype.xpi{
 	background-image: url(filetypes/xpi.png)
 }
 .filetype.zip{
 	background-image: url(filetypes/zip.png)
-}.os.aix{
+}
+.os.aix{
 	background-image: url(os/aix.png);
 }
 .os.android{
