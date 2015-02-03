@@ -2012,6 +2012,9 @@ button.medium24.button{
 .socmed.small16.friendster{
 	background-image: url(socmed/small16/friendster.png);
 }
+.socmed.small16.gmail{
+	background-image: url(socmed/small16/gmail.png);
+}
 .socmed.small16.googleplus{
 	background-image: url(socmed/small16/googleplus.png);
 }
@@ -2089,6 +2092,9 @@ button.medium24.button{
 }
 .socmed.medium24.friendster{
 	background-image: url(socmed/medium24/friendster.png);
+}
+.socmed.medium24.gmail{
+	background-image: url(socmed/medium24/gmail.png);
 }
 .socmed.medium24.googleplus{
 	background-image: url(socmed/medium24/googleplus.png);
