@@ -129,6 +129,9 @@
 .filetype.jpg{
 	background-image: url(filetypes/jpg.png)
 }
+.filetype.json{
+	background-image: url(filetypes/json.png)
+}
 .filetype.lnk{
 	background-image: url(filetypes/lnk.png)
 }
