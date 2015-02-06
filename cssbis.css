@@ -1860,6 +1860,9 @@ button.medium24.button{
 .filetype.vcd{
 	background-image: url(filetypes/vcd.png)
 }
+.filetype.vcf{
+	background-image: url(filetypes/vcf.png)
+}
 .filetype.vob{
 	background-image: url(filetypes/vob.png)
 }
