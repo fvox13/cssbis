@@ -401,6 +401,12 @@ button.medium24.button{
 .action.compare{
 	background-image: url(actions/compare.png);
 }
+.action.config{
+	background-image: url(actions/config.png);
+}
+.action.config-expert{
+	background-image: url(actions/config-expert.png);
+}
 .action.delete{
 	background-image: url(actions/delete.png);
 }
