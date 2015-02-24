@@ -1,16 +1,30 @@
 #!/usr/bin/python
+import os
+
 ICON_CLASSES = [
-	{'base_class': 'action', 'display': 'Actions (<code>.action</code>)', 'classes': ['add', 'next', 'previous', 'block', 'clone', 'compare', 'database', 'delete', 'details', 'disable', 'down', 'download', 'edit', 'enable', 'enable-disabled', 'key_add', 'key_go', 'link_financial_instruments', 'logout', 'map', 'map-disabled', 'more', 'print', 'refresh', 'roll', 'shipping', 'report', 'restore', 'save', 'save_and_continue', 'scroll', 'search', 'start_timer', 'stop_timer', 'up', 'upload', 'view-code', 'warn', 'whitelist', 'whois',]},
-	{'base_class': 'browser', 'display': 'Browsers (<code>.browser</code>)', 'classes': ['abachobot', 'abrowse', 'accoona-ai-agent', 'aol', 'arora', 'avant', 'baiduspider', 'beonex', 'blackberry', 'browzar', 'bunjalloo', 'camino', 'chimera', 'chrome', 'cometbird', 'crazybrowser', 'curl', 'cyberdog', 'dataparksearch', 'deskbrowse', 'devontech', 'dillo', 'dooble', 'elinks', 'enigma', 'epiphany', 'firebird', 'shiretoko', 'namoroka', 'fennec', 'firefox', 'firewebnavigator', 'flock', 'fluid', 'galeon', 'googlebot', 'greenbrowser', 'hotjava', 'ibrowse', 'icab', 'icecat', 'iceweasel', 'internet-explorer', 'internet_explorer', 'msie', 'ie', 'irider', 'iron', 'k-meleon', 'k-ninja', 'kapiko', 'kazehakase', 'kkman', 'konqueror', 'links', 'linspire', 'lobo', 'lunascape', 'lynx', 'madfox', 'maxthon', 'midori', 'minefield', 'minimo', 'mj12bot', 'mozilla', 'multizilla', 'netcaptor', 'netnewswire', 'netpositive', 'netscape', 'netsurf', 'omniweb', 'opera', 'orca', 'oregano', 'phoenix', 'playstation', 'prism', 'rekonq', 'safari', 'seamonkey', 'shiira', 'swift', 'uzbl', 'voyager', 'w3m', 'wap', 'webwasher', 'wget', 'yahoo', ]},
-	{'base_class': 'country', 'display': 'Countries (ISO 3166-1 Alpha 2, plus MaxMind extensions) (<code>.country</code>)', 'classes': ['unknown', 'a1', 'a2', 'aa', 'o1', 'ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'an', 'ao', 'ap', 'aq', 'ar', 'as', 'at', 'au', 'aw', 'ax', 'az', 'ba', 'bb', 'bd', 'be', 'bf', 'bg', 'bh', 'bi', 'bj', 'bl', 'bm', 'bn', 'bo', 'bq', 'br', 'bs', 'bt', 'bv', 'bw', 'by', 'bz', 'ca', 'cc', 'cd', 'cf', 'cg', 'ch', 'ci', 'ck', 'cl', 'cm', 'cn', 'co', 'cr', 'cs', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'de', 'dj', 'dk', 'dm', 'do', 'dz', 'ec', 'ee', 'eg', 'eh', 'er', 'es', 'et', 'eu', 'fi', 'fj', 'fk', 'fm', 'fo', 'fr', 'ga', 'gb', 'gd', 'ge', 'gf', 'gg', 'gh', 'gi', 'gl', 'gm', 'gn', 'gp', 'gq', 'gr', 'gs', 'gt', 'gu', 'gw', 'gy', 'hk', 'hm', 'hn', 'hr', 'ht', 'hu', 'id', 'ie', 'il', 'im', 'in', 'io', 'iq', 'ir', 'is', 'it', 'je', 'jm', 'jo', 'jp', 'ke', 'kg', 'kh', 'ki', 'km', 'kn', 'kp', 'kr', 'kw', 'ky', 'kz', 'la', 'lb', 'lc', 'li', 'lk', 'lr', 'ls', 'lt', 'lu', 'lv', 'ly', 'ma', 'mc', 'md', 'me', 'mf', 'mg', 'mh', 'mk', 'ml', 'mm', 'mn', 'mo', 'mp', 'mq', 'mr', 'ms', 'mt', 'mu', 'mv', 'mw', 'mx', 'my', 'mz', 'na', 'nc', 'ne', 'nf', 'ng', 'ni', 'nl', 'no', 'np', 'nr', 'nu', 'nz', 'om', 'pa', 'pe', 'pf', 'pg', 'ph', 'pk', 'pl', 'pm', 'pn', 'pr', 'ps', 'pt', 'pw', 'py', 'qa', 're', 'ro', 'rs', 'ru', 'rw', 'sa', 'sb', 'sc', 'sd', 'se', 'sg', 'sh', 'si', 'sj', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'st', 'sv', 'sx', 'sy', 'sz', 'tc', 'td', 'tf', 'tg', 'th', 'tj', 'tk', 'tl', 'tm', 'tn', 'to', 'tr', 'tt', 'tv', 'tw', 'tz', 'ua', 'ug', 'um', 'us', 'uy', 'uz', 'va', 'vc', 've', 'vg', 'vi', 'vn', 'vu', 'wf', 'ws', 'ye', 'yt', 'za', 'zm', 'zw', ],},
-	{'base_class': 'filetype', 'display': 'File Types (<code>.filetype</code>)', 'classes': ['filetype', 'ace', 'ai', 'aif', 'aiff', 'amr', 'asf', 'asx', 'bat', 'bin', 'bmp', 'bup', 'cab', 'cbr', 'cda', 'cdl', 'cdr', 'chm', 'csv', 'dat', 'divx', 'dll', 'dmg', 'docx', 'doc', 'dss', 'dvf', 'dwg', 'eml', 'eps', 'epub', 'exe', 'fla', 'flv', 'gif', 'gz', 'hqx', 'htm', 'html', 'ifo', 'indd', 'iso', 'jar', 'jpeg', 'jpg', 'lnk', 'log', 'm4a', 'm4b', 'm4p', 'm4v', 'mcd', 'mdb', 'mid', 'mov', 'mp3', 'mp2', 'mp4', 'mpeg', 'mpg', 'msi', 'mswmm', 'ogg', 'pdf', 'png', 'pps', 'pptx', 'ppt', 'ps', 'psd', 'pst', 'ptb', 'pub', 'qbb', 'qbw', 'qxd', 'ram', 'rar', 'rm', 'rmvb', 'rss', 'rtf', 'sea', 'ses', 'sit', 'sitx', 'ss', 'swf', 'tgz', 'thm', 'tif', 'tmp', 'torrent', 'ttf', 'txt', 'vcd', 'vob', 'wav', 'wma', 'wmv', 'wps', 'xlsx', 'xls', 'xpi', 'zip', ],},
-	{'base_class': 'os', 'display': 'Operating Systems (<code>.os</code>)', 'classes': ['aix', 'android', 'beos', 'dos', 'freebsd', 'hpux', 'ios', 'irix', 'junos', 'linux', 'mac', 'os2', 'plan9', 'reactos', 'sunos', 'windows', ],},
-	{'base_class': 'programming_language', 'display': 'Programing Languages (<code>.programming_language</code>)', 'classes': ['c', 'clojure', 'coldfusion', 'csharp', 'java', 'javascript', 'lua', 'perl', 'php', 'python', 'ruby', 'vb', ],},
-	{'base_class': 'severity_level', 'display': 'Severity Levels (<code>.severity_level</code>)', 'classes': ['informational', 'suspicious', 'low', 'medium', 'high',]},
-	{'base_class': 'socmed small16', 'display': 'Social Media (16x16) (<code>.socmed .small16</code>)', 'classes': ['blogger', 'deviantart', 'diaspora', 'ello', 'facebook', 'fetlife', 'flickr', 'foursquare', 'friendster', 'googleplus', 'houzz', 'identica', 'instagram', 'linkedin', 'meetup', 'myspace', 'ning', 'pinterest', 'stumbleupon', 'tumblr', 'twitter', 'yammer', 'yelp', 'youtube', ],},
-	{'base_class': 'socmed medium24', 'display': 'Social Media (24x24) (<code>.socmed .medium24</code>)', 'classes': ['blogger', 'deviantart', 'diaspora', 'ello', 'facebook', 'fetlife', 'flickr', 'foursquare', 'friendster', 'googleplus', 'houzz', 'identica', 'instagram', 'linkedin', 'meetup', 'myspace', 'ning', 'pinterest', 'stumbleupon', 'tumblr', 'twitter', 'yammer', 'yelp', 'youtube', ],},
-	{'base_class': 'status', 'display': 'Status (<code>.status</code>)', 'classes': ['disabled', 'enabled', 'error', 'info', 'locked', 'safe', 'success', 'unknown', 'unlocked', ],},
+	{'base_class': 'action', 'display': 'Actions (<code>.action</code>)', 'file': 'actions.css',},
+	{'base_class': 'browser', 'display': 'Browsers (<code>.browser</code>)', 'file': 'browsers.css',},
+	{'base_class': 'country', 'display': 'Countries (ISO 3166-1 Alpha 2, plus MaxMind extensions) (<code>.country</code>)', 'file': 'countries.css',},
+	{'base_class': 'filetype', 'display': 'File Types (<code>.filetype</code>)', 'file': 'filetypes.css',},
+	{'base_class': 'os', 'display': 'Operating Systems (<code>.os</code>)', 'file': 'os.css',},
+	{'base_class': 'programming_language', 'display': 'Programing Languages (<code>.programming_language</code>)', 'file': 'programming_languages.css'},
+	{'base_class': 'severity_level', 'display': 'Severity Levels (<code>.severity_level</code>)', 'file': 'severity_levels.css'},
+	{'base_class': 'socmed small16', 'display': 'Social Media (16x16) (<code>.socmed .small16</code>)', 'file': 'socmed.css',},
+	{'base_class': 'socmed medium24', 'display': 'Social Media (24x24) (<code>.socmed .medium24</code>)', 'file': 'socmed.css',},
+	{'base_class': 'status', 'display': 'Status (<code>.status</code>)', 'file': 'status.css',},
 ]
+
+def get_classes(idict):
+	parent = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+	filepath = os.path.join(parent, idict['file'])
+	with open(filepath, 'r') as cssfile:
+		for l in cssfile.readlines():
+			if 'socmed' in idict['base_class']:
+				bclass = ".".join(idict['base_class'].split())
+			else:
+				bclass = idict['base_class']
+			if l.startswith('.%s.' % bclass) and 'withtext' not in l and 'button' not in l:
+				yield l.split('.%s.' % bclass)[1].replace('{', '').replace(',', '').strip()
 
 def print_iconclass_row(base_class, c):
 	print """
@@ -153,7 +167,7 @@ for icon_class in ICON_CLASSES:
 				</tr>
 			<tbody>
 	""" % {'base_class': icon_class['base_class'], 'display': icon_class['display']}
-	for c in icon_class['classes']:
+	for c in get_classes(icon_class):
 		print_iconclass_row(icon_class['base_class'], c)
 	print """
 			</tbody>
