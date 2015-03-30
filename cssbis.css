@@ -395,6 +395,18 @@ button.medium24.button{
 .action.camera_edit{
 	background-image: url(actions/camera_edit.png);
 }
+.action.chart_organization,
+.action.chart_organisation{
+	background-image: url(actions/chart_organisation.png);
+}
+.action.chart_organization_add,
+.action.chart_organisation_add{
+	background-image: url(actions/chart_organisation_add.png);
+}
+.action.chart_organization_delete,
+.action.chart_organisation_delete{
+	background-image: url(actions/chart_organisation_delete.png);
+}
 .action.clone{
 	background-image: url(actions/clone.png);
 }
