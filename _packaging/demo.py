@@ -4,6 +4,8 @@ import os
 ICON_CLASSES = [
 	{'base_class': 'action', 'display': 'Actions (<code>.action</code>)', 'file': 'actions.css',},
 	{'base_class': 'browser', 'display': 'Browsers (<code>.browser</code>)', 'file': 'browsers.css',},
+	{'base_class': 'courier small16', 'display': 'Couriers (16x16) (<code>.courier .small16</code>)', 'file': 'couriers.css',},
+	{'base_class': 'courier medium32', 'display': 'Couriers (32x32) (<code>.courier .medium32</code>)', 'file': 'couriers.css',},
 	{'base_class': 'country', 'display': 'Countries (ISO 3166-1 Alpha 2, plus MaxMind extensions) (<code>.country</code>)', 'file': 'countries.css',},
 	{'base_class': 'filetype', 'display': 'File Types (<code>.filetype</code>)', 'file': 'filetypes.css',},
 	{'base_class': 'os', 'display': 'Operating Systems (<code>.os</code>)', 'file': 'os.css',},
@@ -19,7 +21,7 @@ def get_classes(idict):
 	filepath = os.path.join(parent, idict['file'])
 	with open(filepath, 'r') as cssfile:
 		for l in cssfile.readlines():
-			if 'socmed' in idict['base_class']:
+			if 'socmed' in idict['base_class'] or 'courier' in idict['base_class']:
 				bclass = ".".join(idict['base_class'].split())
 			else:
 				bclass = idict['base_class']
@@ -63,6 +65,7 @@ print """
 		<link rel="stylesheet" type="text/css" href="../icons.css" />
 		<link rel="stylesheet" type="text/css" href="../actions.css" />
 		<link rel="stylesheet" type="text/css" href="../browsers.css" />
+		<link rel="stylesheet" type="text/css" href="../couriers.css" />
 		<link rel="stylesheet" type="text/css" href="../countries.css" />
 		<link rel="stylesheet" type="text/css" href="../filetypes.css" />
 		<link rel="stylesheet" type="text/css" href="../os.css" />

@@ -1,0 +1,25 @@
+.courier.small16.dhl{
+	background-image: url(couriers/16/dhl.png);
+}
+.courier.small16.fedex{
+	background-image: url(couriers/16/fedex.png);
+}
+.courier.small16.ups{
+	background-image: url(couriers/16/ups.png);
+}
+.courier.small16.usps{
+	background-image: url(couriers/16/usps.png);
+}
+
+.courier.medium32.dhl{
+	background-image: url(couriers/32/dhl.png);
+}
+.courier.medium32.fedex{
+	background-image: url(couriers/32/fedex.png);
+}
+.courier.medium32.ups{
+	background-image: url(couriers/32/ups.png);
+}
+.courier.medium32.usps{
+	background-image: url(couriers/32/usps.png);
+}
