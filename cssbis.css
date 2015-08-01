@@ -1830,6 +1830,9 @@ button.medium32.button{
 .filetype.mswmm{
 	background-image: url(filetypes/mswmm.png)
 }
+.filetype.mus{
+	background-image: url(filetypes/mus.png)
+}
 .filetype.ogg{
 	background-image: url(filetypes/ogg.png)
 }
