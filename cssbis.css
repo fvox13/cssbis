@@ -410,8 +410,23 @@ button.medium32.button{
 .action.add{
 	background-image: url(actions/add.png);
 }
+.action.bank{
+	background-image: url(actions/bank.png);
+}
 .action.block{
 	background-image: url(actions/block.png);
+}
+.action.building{
+	background-image: url(actions/building.png);
+}
+.action.building_add{
+	background-image: url(actions/building_add.png);
+}
+.action.building_delete{
+	background-image: url(actions/building_delete.png);
+}
+.action.building_edit{
+	background-image: url(actions/building_edit.png);
 }
 .action.camera_add{
 	background-image: url(actions/camera_add.png);
@@ -498,6 +513,12 @@ button.medium32.button{
 }
 .action.previous{
 	background-image: url(actions/arrow_left.png);
+}
+.action.medal_gold_blue{
+	background-image: url(actions/medal_gold_blue.png);
+}
+.action.medical_record{
+	background-image: url(actions/medical_record.png);
 }
 .action.money{
 	background-image: url(actions/money.png);
