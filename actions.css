@@ -176,6 +176,9 @@
 .action.user_add{
 	background-image: url(actions/user_add.png);
 }
+.action.user_delete{
+	background-image: url(actions/user_delete.png);
+}
 .action.user_edit{
 	background-image: url(actions/user_edit.png);
 }
